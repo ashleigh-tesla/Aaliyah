@@ -10,7 +10,7 @@
 
 :root {
     --card-height: 65vh;
-    --card-width: calc(var(--card-height)) / 1.323333333333333;
+    --card-width: calc(var(--card-height) / 1.323333333333333);
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     height: var(--card-height);
     padding: 4px;
     position: relative;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
     justify-content: center;
     align-items: center;
     place-items: center;
@@ -49,11 +49,6 @@ body {
     color: crimson;
     transition: color 1s;
 }
-
-
-/* .card:hover img {
-    visibility: visible;
-} */
 
 
 /* Rotate Property */
